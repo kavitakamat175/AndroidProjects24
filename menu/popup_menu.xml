@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<item
+    android:title="Cut"
+    android:icon="@drawable/cut"
+    android:id="@+id/cut"/>
+
+<item
+    android:title="Copy"
+    android:id="@+id/copy"
+    android:icon="@drawable/copy"
+    />
+    <item
+        android:title="Paste"
+        android:id="@+id/paste"
+        android:icon="@drawable/paste"
+        />
+    <item
+        android:title="Select All"
+        android:id="@+id/select"
+        android:icon="@drawable/select_all"
+        />
+</menu>

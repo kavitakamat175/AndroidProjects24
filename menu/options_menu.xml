@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/sing"
+        android:title="Singing"/>
+    <item
+        android:id="@+id/dance"
+        android:title="Dancing">
+        <menu>
+            <item
+                android:id="@+id/kathak"
+                android:title="Kathak"/>
+            <item
+                android:id="@+id/bharatnatyam"
+                android:title="Bharat Natyam"/>
+        </menu>
+
+    </item>
+    <item
+        android:id="@+id/read"
+        android:title="Reading"/>
+
+</menu>
