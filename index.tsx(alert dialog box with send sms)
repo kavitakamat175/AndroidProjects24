@@ -10,7 +10,7 @@ export default function HomeScreen() {
           <Text style={{ fontSize: 24 }}>Welcome to</Text>
           <Image
             style={styles.reactLogo}
-            source={require('F:\\svreactsms\\SMSReactAlert\\assets\\images\\react-logo.png')}
+            source={require('F:\\reactsms\\SMSReactAlert\\assets\\images\\react-logo.png')}
           />
         </View>
         <Text style={{ fontSize: 18 }}>React Native Alert Box Dialog</Text>
@@ -34,7 +34,7 @@ export default function HomeScreen() {
         const isAvailable = await SMS.isAvailableAsync();
         if (isAvailable) {
           const { result } = await SMS.sendSMSAsync(
-            ['8308859765'], // Replace with the recipient's phone number
+            ['1234567890'], // Replace with the recipient's phone number
             'Hello from Expo!'
           );
     
